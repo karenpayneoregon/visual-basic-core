@@ -10,6 +10,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front end projects", "Front end projects", "{1857820B-ACEA-470C-B1A8-BE48DE8D4CA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class projects", "Class projects", "{70EF529E-06C8-4EE3-B6A6-34469DC890FB}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "SupportLibrary", "SupportLibrary\SupportLibrary.vbproj", "{832D7660-319C-4D3A-AD77-CF73CFB42B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +26,17 @@ Global
 		{FA638D51-165C-4C39-B919-0AB774DA5E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA638D51-165C-4C39-B919-0AB774DA5E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA638D51-165C-4C39-B919-0AB774DA5E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832D7660-319C-4D3A-AD77-CF73CFB42B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832D7660-319C-4D3A-AD77-CF73CFB42B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832D7660-319C-4D3A-AD77-CF73CFB42B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832D7660-319C-4D3A-AD77-CF73CFB42B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA638D51-165C-4C39-B919-0AB774DA5E5B} = {1857820B-ACEA-470C-B1A8-BE48DE8D4CA3}
+		{832D7660-319C-4D3A-AD77-CF73CFB42B36} = {70EF529E-06C8-4EE3-B6A6-34469DC890FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDDD4A0C-E6ED-453A-B34E-7798580B78E7}
